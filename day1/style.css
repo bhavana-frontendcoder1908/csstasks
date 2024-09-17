@@ -1,0 +1,48 @@
+
+h2{
+    color:rgb(105, 73, 25);
+}
+
+.cal1{
+       color:rgb(97, 53, 138) !important;    
+}
+
+#pa4,#pa5,#pa6{
+    color: pink;
+}
+.cal1{
+ background-color: rgb(124, 168, 175);
+}
+
+#pa7{
+ color: rgb(26, 92, 109);
+ background-color: rgb(207, 183, 187);
+}
+
+.cal3{
+    color: rgb(141, 64, 64);
+}
+
+.cal2{
+color: rgb(229, 14, 57);
+background-color: rgb(204, 231, 163);
+}
+
+#pa1,#pa2,#pa3{
+color: rgb(225, 154, 61);
+}
+
+.cal3{
+      background-color: antiquewhite;
+}
+
+#pa9,#pa10,#pa11,#pa12{
+color: rgb(213, 58, 58);
+}
+
+#pa1,#pa2,#pa3{
+    background-color: rgb(7, 126, 87);
+    font-size: large;
+}
+
+
