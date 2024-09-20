@@ -1,0 +1,181 @@
+*{
+background-color: #282a35;
+
+}
+
+
+#h1,#h2,#h3,#h4,#h5,#h6{
+   
+   border: 2px;
+   width: 30%;
+   height: 180px;
+   padding: 3% 4%;
+   margin: 50px 50px 50px 50px;
+   text-align: center;
+   font-size: xx-large;
+   display:inline-block ;
+  }
+
+#h1{
+
+ background-color: #f4c3d9;
+ 
+}
+
+#sp1{
+   background-color: #f4c3d9;
+   font-size: large;
+   font-weight: 400;
+   
+  }
+
+#h2{
+   
+    background-color: rgb(228, 212, 188);
+    
+}
+
+#sp2{
+   background-color:  rgb(228, 212, 188);
+   font-size: large;
+   font-weight: 400;
+   
+  }
+
+  #h3{
+   background-color: rgb(203, 247, 174);
+   
+  }
+  #sp3{
+   background-color: rgb(203, 247, 174);
+   font-size: large;
+   font-weight: 400;
+   
+  }
+
+  #h4{
+   background-color: rgb(167, 190, 225);
+
+  }
+
+  #sp4{
+   background-color:  rgb(167, 190, 225);
+   font-size: large;
+   font-weight: 400;
+   text-align: center;
+   
+  }
+
+  #h5{
+   background-color: rgb(239, 174, 155);
+ 
+  }
+  #sp5{
+   background-color:rgb(239, 174, 155);
+   font-size: large;
+   font-weight: 400;
+   
+  }
+  #h6{
+   background-color: rgb(203, 247, 174);
+  
+  }
+
+  #sp6{
+   background-color: rgb(203, 247, 174);
+   font-size: large;
+   font-weight: 400;
+   
+  }
+
+
+  #h11,#h16,#h21,#h26,#h29,#h32{
+   background-color: rgb(242, 139, 178);
+   border: 2px;
+   width: 15%;
+   height: 90px;
+   padding: 3% 3%;
+   margin: 20px;
+   text-align: center !important;
+   display:inline-block ;
+  
+  }
+  #h12,#h17,#h22,#h25,#h28,#h31{
+   background-color: rgb(218, 209, 161);
+   border: 2px;
+   width: 15%;
+   height: 90px;
+   padding: 3% 3%;
+   margin: 20px;
+   text-align: center !important;
+   display:inline-block ;
+  
+  }
+
+  #h13,#h18,#h15,#h20,#h27,#h24,#h30,#h33{
+   background-color: rgb(236, 154, 118);
+   border: 2px;
+   width: 15%;
+   height: 90px;
+   padding: 3% 3%;
+   margin: 20px;
+   text-align: center !important; 
+   display:inline-block ;
+  
+  }
+
+  #h14,#h19,#h23,#h34{
+   background-color: rgb(211, 159, 195);
+   border: 2px;
+   width: 15%;
+   height: 90px;
+   padding: 3% 3%;
+   margin: 20px;
+   text-align: center !important;
+   display:inline-block ;
+  
+  }
+
+#d1,#d2{  border: 2px;
+   width: 35%;
+   height: 40px;
+   padding: 3% 4%;
+   margin: 50px 50px 50px 50px;
+   text-align: center;
+  background-color: #f4c3d9;
+  display:inline-block ;
+
+}
+
+#d3,#d4{  border: 2px;
+   width: 35%;
+   height: 40px;
+   padding: 3% 4%;
+   margin: 50px 50px 50px 50px;
+   text-align: center;
+  background-color: #ebf99e;
+  display:inline-block ;
+
+}
+
+#d5,#d6{  border: 2px;
+   width: 35%;
+   height: 40px;
+   padding: 3% 4%;
+   margin: 50px 50px 50px 50px;
+   text-align: center;
+  background-color: #f0b8be;
+  display:inline-block ;
+
+}
+
+
+
+   input{
+border-radius: 20px;
+background-color: #131313;
+text-align: center;
+padding: 10px 20px;
+color: whitesmoke;
+   }
+
