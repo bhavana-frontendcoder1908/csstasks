@@ -1,0 +1,93 @@
+ *{
+    margin: 0%;
+ }
+  
+ 
+ .p1{
+background-image:url(front-end-languages.webp) ;
+height: 100vh;
+background-size: 100% 100%;
+background-attachment: fixed;
+
+ }
+ .p2{
+    background-image:url(html2.jpg) ;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+     }
+     .p3{
+        background-image:url(css1.png) ;
+        height: 100vh;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        
+         }
+
+         .p4{
+            background-image:url(js.png) ;
+            height: 100vh;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            
+             }
+
+             .p5{
+                background-image:url(frontend.jpg) ;
+                height: 100vh;
+                background-size: 100% 100%;
+                background-attachment: fixed;
+                
+                 }
+
+
+
+
+
+ .p6{
+   background-image:url(backend12.webp) ;
+   height: 100vh;
+   background-size: 100% 100%;
+   background-attachment: fixed;
+              
+   } 
+   
+   .p7{
+    background-image:url(java.webp) ;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+     }
+     .p8{
+        background-image:url(python.png) ;
+        height: 100vh;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        
+         }
+         
+         .p9{
+            background-image:url(php.jpg) ;
+            height: 100vh;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            
+             }
+
+             .p10{
+                background-image:url(backend.jpg) ;
+                height: 100vh;
+                background-size: 100% 100%;
+                background-attachment: fixed;
+                
+                 }
+.p11{
+ background-image:url(allinone.jpg) ;
+ height: 100vh;
+ background-size: 100% 100%;
+ background-attachment: fixed;
+                    
+ }                
+  
