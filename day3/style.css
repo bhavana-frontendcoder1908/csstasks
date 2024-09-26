@@ -1,0 +1,129 @@
+#h1,#h2,#h3,#h4,#h5,#h6,#h7,#h8{
+   
+    border: 2px;
+    width: 10%;
+    height: 200px;
+    padding: 2% 3%;
+    margin: 50px 50px 50px 50px;
+    text-align: center;
+    font-size: xx-large;
+    display:inline-block ;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 3px rgb(12, 12, 12);
+   }
+
+   #h1{
+    background-color: rgb(248, 180, 192);
+    text-align: center !important;
+   
+   
+   }
+
+   #h1:hover{
+    
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+   }
+   #h2{
+    background-color: rgb(190, 141, 236);
+   }
+
+   #h2:hover{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+   }
+
+   #h3{
+    background-color: rgb(195, 246, 229);
+   }
+#h3:hover{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+   #h4{
+    background-color: rgb(233, 157, 157);
+   }
+
+   #h4:hover{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   }
+   #h5{
+    background-color: rgb(241, 164, 91);
+   }
+
+   .container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+    
+}
+
+   .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+    
+}
+
+   #h5:hover{
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+   }
+   #h6{
+    background-color: rgb(249, 110, 102);
+   }
+
+   #h6:hover{
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   }
+   #h7{
+    background-color: rgb(189, 189, 234);
+   }
+
+
+   #h7:hover{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+   }
+   #h8{
+    background-color: rgb(220, 225, 65);
+   }
+
+   #h8:hover{
+    font-family: "Whisper", cursive;
+    font-weight: 400;
+    font-style: normal;
+   }
+
+ 
+  #di1{
+border: 5px;
+width: 60%;
+height: 50px;
+background-color: rgb(248, 201, 130);
+text-align: center;
+font-size:xx-large ;
+padding: 2% 3%;
+margin: 30px 30px 30px 30px;
+color: rgb(113, 26, 121);
+border-color: blanchedalmond;
+box-shadow: 1px 1px 4px 3px rgba(41, 40, 40, 0.3) ;
+
+  }
+ 
+ 
