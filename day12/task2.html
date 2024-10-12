@@ -7,34 +7,42 @@
     <style>
         .buttons,img{
             align-items: center;
-            margin-top: 15%;
+            margin-top: 15%;  
         }
         img{
-            margin-top: 8%;
+         margin-top: 10%; 
         }
         
-        .button:hover~img{
-
-border: 2px solid purple;
-
+        .b:hover ~ img{
+        border: 2px solid purple;
         }
-
-
+        .b1:hover~img{
+            transform: translate(100px,100px);
+        }
+        .b2:hover~img{
+            transform: scale(1.5);
+        }
+        .b3:hover~img{
+            transform: rotate(180deg);
+        }
+        .b4:hover~img{
+            transform: skew(10deg,30deg);
+        }
     </style>
 </head>
 <body>
     <center>
+        
     <div class="buttons">
-    <button >Translate</button>
-    <!-- <button class="b2">Scale</button>
+    <button class="b">Border</button>
+    <button class="b1">Translate</button>
+    <button class="b2">Scale</button>
     <button class="b3">Rotate</button>
-    <button class="b4">Skewing</button> -->
+    <button class="b4">Skewing</button>
+    <br><br>
+    <img src="download.jpeg" width="150px" height="150px">
     </div>
     </center>
-    <br>
-    <center>
-    <img src="download.jpeg" width="150px" height="150px">
-</center>
 
 </body>
 </html>
