@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3 TEMPLATE/by using Flex Properties</title>
+    <style>
+        .n1{
+    background-color:white;
+    overflow: hidden;
+    padding: 8px;
+    box-shadow:  0px 0px 3px 3px rgba(41, 40, 40, 0.3) ;
+    border: 5px;
+width: 98%;
+height: 30px;
+padding: 1% 2%;
+margin: 30px 30px 30px 30px;
+margin: 0px;
+top: 5px;
+bottom: 5px;
+position: fixed;
+display: flex;
+align-items: center;
+z-index: 1;
+
+}
+
+.h1{
+    font-weight: 100;
+    font-size: medium;
+    word-spacing: 14px;
+    letter-spacing: 4px;
+}
+
+.a1{
+    text-decoration: none;
+    text-decoration: black;
+    color: black;
+    font-size: larger;
+    justify-content: space-between;
+    display: inline-block;
+    position: absolute;
+    left: 80%;
+    top: 36%;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: medium;
+    text-align: center;
+    
+}
+
+.a2{
+    text-decoration: none;
+    text-decoration: black;
+    color: black;
+    font-size: larger;
+    justify-content: space-between;
+    display: inline-block;
+    position: absolute;
+    left: 85%;
+    top: 36%;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: medium;
+    text-align: center;
+    
+   
+}
+ 
+.a3{
+    text-decoration: none;
+    text-decoration: black;
+    color: black;
+    font-size: larger;
+    justify-content: space-between;
+    display: inline-block;
+    position: absolute;
+    left: 90%;
+    top: 36%;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: medium;
+    text-align: center;
+ 
+}
+
+.img{
+    overflow: hidden;
+    width: 100%;
+}
+
+.p1{
+    position: absolute;
+           top:85%;
+           color: rgb(104, 103, 103);
+           letter-spacing: 4px;
+           font-size: xx-large;
+           left: 3%;
+}
+
+.box1{
+    display: flex;
+ 
+}
+.c1{
+    
+    display: flex;
+    margin-left: 15%;
+    padding-top: 7%
+}
+
+.h2{
+    font-weight: lighter;
+    padding-top: 15%;
+    padding-left: 20%;
+    word-spacing: 4px;
+    letter-spacing: 5px;
+    font-size:xx-large;
+  
+}
+.p2{
+           font-size: large;
+            text-align: center;
+            padding-left: 0%;
+            padding-right: 6%;
+            padding-top: 25px;
+            width: 75%;
+            letter-spacing: 5px;
+            word-spacing: 5px;
+         }
+
+.p3{
+            padding-left: 15%;
+            padding-right: 5%;
+            width: 70%;
+            font-family:'Times New Roman', Times, serif;
+            word-spacing: 3px;
+            font-size: large;
+           justify-content: center;
+           word-spacing: 2px;
+         }
+         .p4{
+            padding-left: 15%;
+            padding-right: 5%;
+            width: 70%;
+            color: gray;
+            font-family:'Times New Roman', Times, serif;
+            word-spacing: 3px;
+            font-size: large;
+            word-spacing: 2px;
+
+         }
+          .om{
+            padding-left: 60%;
+            width: 100%;
+            word-spacing: 3px;
+            letter-spacing: 3px;
+            font-size: xx-large;
+            font-weight: lighter;
+            word-spacing: 4px;
+            letter-spacing: 4px;
+         }
+         
+         .g1{ 
+            color: gray;
+            width: 150%;
+            letter-spacing: 1px;
+            word-spacing: 0.89px;
+            text-align: justify;
+            padding-left: 3%;
+            float: left;
+         }
+          b{
+            letter-spacing: 5px;
+            word-spacing: 5px;
+            text-align: justify;
+            font-size: larger;
+            font-weight: lighter;
+            float: left;
+            padding: 3%;      
+
+          }
+    
+         .m1{
+           display: flex;
+           padding-left: 9.99%;
+           padding-top: 5%;
+           
+           
+         }
+         .m3{
+            padding-left: 15%;
+            
+         }
+         .m2{
+            width: 30%;
+         } 
+        
+         /* h3{
+            padding-left: 10%;
+            padding-top: 2%;
+            font-size: xx-large;
+         }
+         form{
+            padding-left: 8%;
+         }
+         
+        h5{
+            padding-left: 8%;
+            font-size: medium;
+         }
+         .z1,.z2,.z3{
+            padding-left: 8%;
+            padding-bottom: 2%;
+            
+         }
+         .z2{
+            padding-right: 7%;
+         }
+         .i{
+            width: 40%;
+         } */
+
+         .CON123{
+    padding: 0.01em 16px;
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+}
+.input {
+    padding: 15px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 80%;
+   
+}
+.z1,.z2,.z3{
+            padding-left: 8%;
+            padding-bottom: 2%;
+            
+         }
+         .z3{
+            padding-top: 2%;
+         }
+         h5{
+            padding-left: 8%;
+            font-size: medium;
+         }
+        
+
+.border {
+    border: 1px solid #ccc !important;
+}
+
+.section {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+
+.button{
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+    color: #fff !important;
+    background-color: #000 !important;
+    padding:15px ;
+    width: 200px;
+   
+}
+.f1{
+    padding-left: 8%;
+    padding-bottom: 2%;
+}
+
+@media screen and (width<1200px){
+    .a1{
+        position: absolute;
+    left: 65%;
+    top: 36%;
+    }
+    .a2{
+        position: absolute;
+    left: 75%;
+    top: 36%;
+    }
+    .a3{
+        position: absolute;
+    left: 85%;
+    top: 36%;
+    }
+    .p1{
+        position: absolute;
+        top:55%;
+    }
+    .box1{
+        flex-direction: column;
+        
+    }
+    .m1{
+        flex-direction: column;
+        justify-content: center;
+    }
+   
+   
+}
+
+@media screen and (width<900px){
+    .p1{
+        position: absolute;
+        top:35%;
+    }
+}
+
+@media screen and (width<700px){
+    .h1{
+        word-spacing: 5px;
+    }
+    .p1{
+        position: absolute;
+        top:18%;
+        font-size: larger;
+    }
+    .a1{
+        position: absolute;
+    left: 55%;
+    top: 36%;
+    }
+
+    .a2{
+        position: absolute;
+    left: 68%;
+    top: 36%;
+    }
+
+    .a3{
+        position: absolute;
+    left: 80%;
+    top: 36%;
+    }
+
+  .m3>img{
+  height:500px;
+  width: 290px;
+  }
+  .c1>img{
+    height:500px;
+  width: 290px;
+  }
+}
+
+@media screen and (width<600px){
+    .p1{
+        position: absolute;
+        top:18%;
+        font-size: larger;
+    }
+    .a1{
+        position: absolute;
+    left: 55%;
+    top: 36%;
+    }
+
+    .a2{
+        position: absolute;
+    left: 68%;
+    top: 36%;
+    }
+
+    .a3{
+        position: absolute;
+    left: 80%;
+    top: 36%;
+    }
+
+  .m3>img{
+  height:500px;
+  width: 290px;
+  }
+  .c1>img{
+    height:500px;
+  width: 290px;
+  }
+}
+
+
+
+
+ 
+</style>
+</head>
+<body>
+    <nav class="n1">
+        <h2 class="h1">Gourmet au Catering</h2>
+        <div >
+           <a class="a1" href="#about">About</a>
+           <a class="a2" href="#menu">Menu</a>
+           <a class="a3" href="#contact">Contact</a>
+            
+        </div>
+    </nav>
+    <img class="img" src="hamburger.jpg">
+    <p class="p1">Le Catering</p>
+    
+
+<div class="box1" id="about">
+    <div class="c1">
+     <img src="tablesetting2.jpg" alt="" height="600px" width="490px">
+    </div>
+<div class="c2">
+    <h1 class="h2">About Catering</h1>
+    <p class="p2">Tradition since 1889</p>
+    <p class="p3">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.</p> 
+      <p class="p4"> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+</div>
+</div>
+<br>
+<br>
+<br>
+<hr size="0px" color="white">
+
+    
+<div id="menu" class="m1">
+    <div class="m2">
+        <h2 class="om">Our Menu</h2>
+        <b>Bread Basket</b>
+        <p class="g1">Assortment of fresh baked fruit breads and muffins 5.50 </p>
+        <b>Honey Almond Granola with Fruits</b>
+        <p class="g1">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+        <b>Belgian Waffle</b>
+        <p class="g1">Vanilla flavored batter with malted flour 7.50 </p>
+        <b>Scrambled eggs</b>
+        <p class="g1">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50 </p>
+        <b>Blueberry Pancakes</b>
+        <p class="g1">With syrup, butter and lots of berries 8.50 </p>
+    </div>
+    <div class="m3">
+        <img src="tablesetting3.jpg" height="85%">
+    </div>
+    </div>
+   
+
+<br>
+    <hr size="1px" color="white">
+    <!-- <div id="contact" class="z1">
+      <h3>Contact</h3>
+      <p class="z2">  We offer full-service catering for any event, large or small.
+          We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.
+     Do not hesitate to contact us.</p>
+       <h5>Catering Service, 42nd Living St, 43043 New York, NY</h5>
+   <div class="z3">You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</div>
+    <br><div>
+      <form>
+         
+            <input class="i" type="text" placeholder="Name" size="60%"><br><br>
+         <input class="i" type="number" placeholder="How Many People" size="60%" ><br><br>
+          <input class="i" type="datetime-local" placeholder="dd-mm-yyyy 00:00" size="60%"><br><br>
+          <input class="i"  type="text" placeholder="Message\Special requirements" size="60%"><br><br>
+         <button>SEND MESSAGE</button>
+      </form>
+   </div>
+   </div> NO NEED--> 
+
+   <div class="CON123">
+    <h1 class="z1"   id="contact">Contact</h1>
+    <p class="z2">  We offer full-service catering for any event, large or small.
+        We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.
+           Do not hesitate to contact us.</p>
+     <h5>Catering Service, 42nd Living St, 43043 New York, NY</h5>
+ <div class="z3">You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</div>
+  <br><div>
+    <form class="f1">
+        <input class="input border" type="text" placeholder="Name" required name="Name"><br>
+        <input class="input border" type="text" placeholder="Email" required name="Name"><br>
+        <input class="input border" type="text" placeholder="How Many People" required name="How Many People"><br>
+        <input class="input border" type="datetime-local" placeholder="dd-mm-yyyy 00:00" required name="How Many People"><br>
+        <input class="input border" type="text" placeholder="Comment" required name="Comment">
+        <button class="button" type="submit">SEND</button>
+    </form>
+  </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
